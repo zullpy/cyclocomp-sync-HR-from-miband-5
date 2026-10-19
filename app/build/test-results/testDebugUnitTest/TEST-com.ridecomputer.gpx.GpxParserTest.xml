@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ridecomputer.gpx.GpxParserTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-19T04:18:50" hostname="archlinux" time="0.426">
+  <properties/>
+  <testcase name="testRejectsEmptyTrack" classname="com.ridecomputer.gpx.GpxParserTest" time="0.235"/>
+  <testcase name="testRejectsMalformedXml" classname="com.ridecomputer.gpx.GpxParserTest" time="0.048"/>
+  <testcase name="testParseGpx10FormatWithDirectHrExtension" classname="com.ridecomputer.gpx.GpxParserTest" time="0.044"/>
+  <testcase name="testTimestampParserFormats" classname="com.ridecomputer.gpx.GpxParserTest" time="0.017"/>
+  <testcase name="testMultiSegmentTrackSeparationWithoutConnectingLines" classname="com.ridecomputer.gpx.GpxParserTest" time="0.01"/>
+  <testcase name="testRejectsNonGpxDocument" classname="com.ridecomputer.gpx.GpxParserTest" time="0.005"/>
+  <testcase name="testParseValidGpx11WithTrackElevationAndHeartRate" classname="com.ridecomputer.gpx.GpxParserTest" time="0.011"/>
+  <testcase name="testDistanceCalculationKnownCoordinates" classname="com.ridecomputer.gpx.GpxParserTest" time="0.006"/>
+  <testcase name="testXxeSecurityDefense" classname="com.ridecomputer.gpx.GpxParserTest" time="0.01"/>
+  <testcase name="testFiltersInvalidCoordinates" classname="com.ridecomputer.gpx.GpxParserTest" time="0.007"/>
+  <testcase name="testParseRouteElementsFallback" classname="com.ridecomputer.gpx.GpxParserTest" time="0.007"/>
+  <testcase name="testRejectsSinglePointTrack" classname="com.ridecomputer.gpx.GpxParserTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

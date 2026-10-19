@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ridecomputer.gpx.RouteGeometryUtilsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-19T04:18:51" hostname="archlinux" time="0.087">
+  <properties/>
+  <testcase name="testBoundingBoxCalculation" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.058"/>
+  <testcase name="testPerpendicularDistanceCalculation" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.001"/>
+  <testcase name="testSimplifyMultiSegmentsMaintainsSegmentSeparation" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.003"/>
+  <testcase name="testDouglasPeuckerPreservesProminentCurve" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.005"/>
+  <testcase name="testBoundingBoxPadding" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.002"/>
+  <testcase name="testBoundingBoxEmptyReturnsNull" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.004"/>
+  <testcase name="testDouglasPeuckerCollinearPointsSimplification" classname="com.ridecomputer.gpx.RouteGeometryUtilsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

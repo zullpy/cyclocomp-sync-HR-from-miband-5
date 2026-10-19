@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="34"
+            column="13"
+            startOffset="1448"
+            endLine="34"
+            endColumn="49"
+            endOffset="1484"/>
+    </incident>
+
+</incidents>

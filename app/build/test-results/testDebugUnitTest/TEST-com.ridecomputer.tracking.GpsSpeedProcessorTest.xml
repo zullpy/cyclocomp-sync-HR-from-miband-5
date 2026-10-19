@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ridecomputer.tracking.GpsSpeedProcessorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-19T04:18:51" hostname="archlinux" time="0.169">
+  <properties/>
+  <testcase name="testRejectsInvalidCoordinates" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.031"/>
+  <testcase name="testDistanceDerivedSpeedFallbackWhenDopplerMissing" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.001"/>
+  <testcase name="testSignalRecoveryAfterLoss" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.001"/>
+  <testcase name="testDistanceDerivedSpeedRejectsSmallDisplacementsWithinNoiseRadius" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.0"/>
+  <testcase name="testDopplerSpeedHasPriorityOverPositionDifferencing" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.0"/>
+  <testcase name="testKinematicJumpConstraintPreventsUnrealisticAccelerationSpike" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.045"/>
+  <testcase name="testSignalLossDetection" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.001"/>
+  <testcase name="testInstantZeroSpeedWhenStopping" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.001"/>
+  <testcase name="testRejectsPoorAccuracyFixes" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.025"/>
+  <testcase name="testNoArbitrarySpeedCapOnFastCyclingDescent" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.001"/>
+  <testcase name="testStationaryDriftFiltering" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.008"/>
+  <testcase name="testSpeedConversionMpsToKmh" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.002"/>
+  <testcase name="testRejectsStaleAndDuplicateTimestamps" classname="com.ridecomputer.tracking.GpsSpeedProcessorTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Velocity dial arc: sweeps 270 degrees from bottom-left around to bottom-right -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M34.2,73.8 A28,28 0 1,1 73.8,73.8" />
+
+    <!-- Center dynamic 'C' monogram with aerodynamic contour -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,38 L60,38 L58,44 L48,44 L44,54 L48,64 L58,64 L60,70 L44,70 A16,16 0 0,1 44,38 Z" />
+
+    <!-- Forward velocity chevron in athletic AccentGreen -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M55,46 L65,54 L55,62 L51,58 L57,54 L51,50 Z" />
+
+    <!-- Speedometer accent tick at max speed position -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M73,73 L78,78" />
+</vector>
